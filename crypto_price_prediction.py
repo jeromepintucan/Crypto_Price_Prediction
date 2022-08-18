@@ -76,7 +76,7 @@ prediction_prices = scaler.inverse_transform(prediction_prices)
 
 plt.plot(actual_prices, color='black', label='Actual Prices')
 plt.plot(actual_prices, color='green', label='Predicted Prices')
-plt.title(f'{crypto_currency} price prediction')
+plt.title(f'{crypto_currency} Price Prediction')
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.legend(loc='upper left')
